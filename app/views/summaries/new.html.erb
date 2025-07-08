@@ -1,0 +1,11 @@
+<% content_for :title, "New summary" %>
+
+<h1>New summary</h1>
+
+<%= render "form", summary: @summary %>
+
+<br>
+
+<div>
+  <%= link_to "Back to summaries", summaries_path %>
+</div>
